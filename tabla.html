@@ -9,8 +9,20 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <h1 class="green-text">Vehiculos</h1>
+        <h1 class="green-text title">Vehiculos</h1>
         <p>Encuentra los mejores vehiculos en este lugar</p>
+
+        <section>
+            <figure class="picture">
+                <img src="ferrari.jpg" alt="ferrari" />
+            </figure>
+            <figure class="picture">
+                <img src="lambo.jpg" alt="lambo" />
+            </figure>
+            <figure class="picture">
+                <img src="porche.jpg" alt="porche" />
+            </figure>
+        </section>
         <section>
             <table>
                 <hr />
@@ -24,36 +36,31 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Ferrari</td>
+                        <td class="red-box">Ferrari</td>
                         <td>$ 60000</td>
                         <td>350 Km/h</td>
                         <td>Rojo</td>
-                        <img src="ferrari.jpg" alt="ferrari" width="100" />
                     </tr>
                     <tr>
-                        <td>Lamborghini</td>
+                        <td class="yellow-box">Lamborghini</td>
                         <td>$ 80000</td>
                         <td>400 km/h</td>
-                        <td>Negro</td>
-                        <img src="lambo.jpg" alt="lambo" width="95" />
+                        <td>Amarillo</td>
                     </tr>
                     <tr>
-                        <td>Porsche</td>
+                        <td class="violet-box">Porsche</td>
                         <td>$ 90000</td>
                         <td>600 km/h</td>
-                        <td>Amarillo</td>
-                        <img src="porche.jpg" alt="porche" width="90" />
+                        <td>Violeta</td>
                     </tr>
                 </tbody>
             </table>
         </section>
         <hr />
         <section>
-            <h2>Videos de nuestros productos</h2>
-            <figure>
+            <h2 class="title">Videos de nuestros productos</h2>
+            <figure class="videos">
                 <iframe
-                    width="300"
-                    height="250"
                     src="https://www.youtube.com/embed/qGfeLw7yqOY?si=W9-45pyA5TRyJ8Rh"
                     title="YouTube video player"
                     frameborder="0"
@@ -63,10 +70,8 @@
                 ></iframe>
                 <figcaption><em>Ferrari testarosa</em></figcaption>
             </figure>
-            <figure>
+            <figure class="videos">
                 <iframe
-                    width="300"
-                    height="250"
                     src="https://www.youtube.com/embed/Y4YHUDRzr2E?si=CRqJ6Z3AZF5LGaX2"
                     title="YouTube video player"
                     frameborder="0"
@@ -76,10 +81,8 @@
                 ></iframe>
                 <figcaption><em>Lamborghini Temera</em></figcaption>
             </figure>
-            <figure>
+            <figure class="videos">
                 <iframe
-                    width="300"
-                    height="250"
                     src="https://www.youtube.com/embed/DZAdVY9kKbc?si=EAqVvUYEFlOudXsP"
                     title="YouTube video player"
                     frameborder="0"
@@ -91,16 +94,22 @@
             </figure>
         </section>
         <section>
-            <h3>Ubicación de nuestras oficinas:</h3>
+            <h3 class="title">Ubicación de nuestras oficinas:</h3>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15959.048796352143!2d-78.47279610694585!3d-0.30389619805776313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1753295614315!5m2!1ses-419!2sec"
-                width="300"
-                height="250"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
+        </section>
+        <section>
+            <p>
+                <em
+                    >Nuestra misión es proporcionar cada estilo con la
+                    personalidad del cliente, nos respalda nuestras marcas.</em
+                >
+            </p>
         </section>
     </body>
 </html>
