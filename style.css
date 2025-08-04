@@ -1,0 +1,20 @@
+.green-text {
+    color: green;
+}
+
+body {
+    margin: 20px;
+}
+
+.red-box {
+    background-color: red;
+    width: 100px;
+}
+.blue-box {
+    background-color: blue;
+    width: fit-content; /*para que se ajuste a un elemento*/
+}
+#textbig {
+    /* id es solo para ciertos elementos unicos*/
+    font-size: 20px;
+}
